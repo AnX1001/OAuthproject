@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Velg fag</title>
+    <link rel="stylesheet" href="stylingmainpage.css">
+</head>
+<body>
+    <div class="container">
+        <div class="profileCard">
+            <img class="profileImage" src="john-torcasio-tgVm0tkbf1U-unsplash.jpg" alt="profileimage">
+            <p class="name">Shannon Peterson</p>
+        
+            <button class="logOut">Logg ut</button>
+        </div>
+
+        <div class="subjects">
+            <div class="emner">
+               <span>
+                <h1 class="kategoriEn">Forretningsledelse</h1>
+                <h2 class="emneA">Organisasjonskultur </h2>
+                <h2 class="emneA">Store og små bedrifter </h2>
+                <h2 class="emneA">Rekrutteringsprosessen</h2>
+                <h2 class="emneA">Arbeidsmiljø  og kjønn</h2>
+               </span>
+                <span>
+                    <h1 class="kategoriTo">Antropologi</h1>
+                    <h2 class="emneB">Organisasjonskultur</h2>
+                    <h2 class="emneB">Lederstil vs Coaching</h2>
+                    <h2 class="emneB">Krysskulturelle team</h2>
+                </span>
+                <span>
+                    <h1 class="kategoriTre">Språk</h1>
+                    <h2 class="emneC">Engelsk</h2>
+                    <h2 class="emneC">Fransk</h2>
+                    <h2 class="emneC">Thai</h2>
+                </span> 
+            </div>
+            
+            <!-- dine valgt emner -->
+            <div class="valgteEmner">
+                <h1 class="titleValgteEmner">Dine valgte emner</h1>
+                <p class="valgtEmne">1.</p>
+                <p class="valgtEmne">2.</p>
+                <p class="valgtEmne">3.</p>
+                <p class="valgtEmne">4.</p>
+                <p class="valgtEmne">5.</p>
+                <button class="sendSoknad">Send søknad</button>
+            </div>
+
+        </div>
+        
+    </div>
+    <script src="https://www.gstatic.com/firebasejs/7.21.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.21.0/firebase-firestore.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.21.0/firebase-storage.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.21.0/firebase-auth.js"></script>
+    
+
+<script>
+     var firebaseConfig = {
+    apiKey: "hidden4",
+    authDomain: "fhidden",
+    databaseURL: "hthiddenm",
+    projectId: "hidden",
+    storageBucket: "hidden",
+    messagingSenderId: "hidden",
+    appId: "hidden",
+    measurementId: "G-hidden"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
+
+</body>
+<script src="./script.js"></script>
+</html>
